@@ -1,0 +1,40 @@
+  .crumbs li {
+      color: rgba(0, 0, 0, 1);
+      background-color: transparent;
+      display: inline-block;
+      font-family: 'Lato', sans-serif;
+      line-height: 1em;
+      font-size: 1em;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      margin: 0;
+      padding: 1em 1em 0.1em 1em;
+      text-decoration: none;
+      text-transform: uppercase;
+
+  }
+
+  .crumbs a{
+      text-decoration: none;
+}
+
+.crumbs a:visited{
+    color: rgba(0, 0, 0, 1);
+}
+  
+
+  nav{
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      padding: 0.1em 0.2em;
+        /* Large padding which will shrink on scroll (using JS) */
+      transition: 0.4s;
+        /* Adds a transition effect when the padding is decreased */
+      position: fixed;
+        /* Sticky/fixed navbar */
+      width: 100%;
+      top: 0;
+        /* At the top */
+      z-index: 99;
+  }

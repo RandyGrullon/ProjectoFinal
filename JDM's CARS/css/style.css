@@ -1,3 +1,4 @@
+
 #HomeButtom{
     position: relative;
     font-size: 1.5em;
@@ -28,7 +29,7 @@
            sans-serif;
            line-height: 1em;
            font-size: 1.5em;
-           font-weight: 400;
+           font-weight: bold;
            letter-spacing: 0.2em;
            margin: 0;
            padding: 1em 1em 0.1em 1em;
@@ -46,7 +47,7 @@
             sans-serif;
         line-height: 1em;
         font-size: 1.5em;
-        font-weight: 400;
+        font-weight: bold;
         letter-spacing: 0.2em;
         margin: 0;
         padding: 1em 1em 0.1em 1em;
@@ -55,7 +56,7 @@
         position: absolute;
         top: 130%;
         left: 45%;
-
+        
     }
 
   nav{
@@ -73,6 +74,7 @@
         /* At the top */
       z-index: 99;
       background-color: rgb(255, 255, 255);
+      font-weight: bold;
  
   }
 
@@ -121,10 +123,8 @@
         transition: .5s;
   }
 
-  img{
-      width: 100vw;
-      left:-1%;
-
+  .ImgCars{
+      height: 10px;
   }
 
    .crumbs li {

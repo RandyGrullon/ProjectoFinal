@@ -29,6 +29,8 @@ body{
 .login-content{
 	display: flex;
 	justify-content: flex-start;
+	position: relative;
+	right: 150px;
 	align-items: center;
 	text-align: center;
 }
@@ -36,15 +38,11 @@ body{
 .img img{
 	width: 700px;
 	position: relative;
-	left: 250px;
+	left: 20px;
 }
 
 form{
 	width: 360px;
-}
-
-.login-content img{
-    height: 100px;
 }
 
 .login-content h2{

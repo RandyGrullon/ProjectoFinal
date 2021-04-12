@@ -1,27 +1,62 @@
-  .crumbs li {
-      color: rgba(0, 0, 0, 1);
-      background-color: transparent;
-      display: inline-block;
-      font-family: 'Lato', sans-serif;
-      line-height: 1em;
-      font-size: 1em;
-      font-weight: 400;
-      letter-spacing: 0.2em;
-      margin: 0;
-      padding: 1em 1em 0.1em 1em;
-      text-decoration: none;
-      text-transform: uppercase;
+#HomeButtom{
+    position: relative;
+    font-size: 1.5em;
+    right: 600%;
+    top:1%
 
-  }
+}
+#LoginButtom {
+    position: relative;
+    font-size: 1.5em;
+    left: 500%;
+    top: 1%
+}
 
-  .crumbs a{
+.crumbs a{
       text-decoration: none;
 }
 
 .crumbs a:visited{
-    color: rgba(0, 0, 0, 1);
+    color: rgb(5, 5, 5);
+
+
 }
-  
+  .SpanCars1{
+           background-color: transparent;
+           display: inline-block;
+           font-family: 'Lato',
+           sans-serif;
+           line-height: 1em;
+           font-size: 1.5em;
+           font-weight: 400;
+           letter-spacing: 0.2em;
+           margin: 0;
+           padding: 1em 1em 0.1em 1em;
+           text-decoration: none;
+           text-transform: uppercase;
+           position: absolute;
+           top:20%;
+           left: 45%;
+
+  } 
+    .SpanCars2 {
+        background-color: transparent;
+        display: inline-block;
+        font-family: 'Lato',
+            sans-serif;
+        line-height: 1em;
+        font-size: 1.5em;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+        margin: 0;
+        padding: 1em 1em 0.1em 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130%;
+        left: 45%;
+
+    }
 
   nav{
       display: flex;
@@ -37,4 +72,91 @@
       top: 0;
         /* At the top */
       z-index: 99;
+      background-color: rgb(255, 255, 255);
+ 
   }
+
+   .DivCarsInput1 {
+      	position: absolute;
+        top: 100%; 
+      	width: 15%;
+        left: 45%;
+      	height: 2em;
+      	border-radius: 1em;
+      	outline: none;
+      	border: none;
+      	background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
+      	background-size: 200%;
+      	font-size: 1.2rem;
+      	color: #fff;
+      	font-family: 'Poppins',
+      	sans-serif;
+      	text-transform: uppercase;
+      	margin: 1rem 0;
+      	cursor: pointer;
+      	transition: .5s;
+  } 
+    input:hover {
+      background-position: right;
+  }
+
+    .DivCarsInput2 {
+        position: absolute;
+    	top: 220%;
+        right: 40%;
+        width: 15%;
+    	height: 2em;
+        border-radius: 1em;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
+        background-size: 200%;
+        font-size: 1.2rem;
+        color: #fff;
+        font-family: 'Poppins',
+        sans-serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+  }
+
+  img{
+      width: 100vw;
+      left:-1%;
+
+  }
+
+   .crumbs li {
+
+       background-color: transparent;
+       display: inline-block;
+       font-family: 'Lato', sans-serif;
+       line-height: 1em;
+       font-size: 1em;
+       font-weight: 400;
+       letter-spacing: 0.2em;
+       margin: 0;
+       padding: 1em 1em 0.1em 1em;
+       text-decoration: none;
+       text-transform: uppercase;
+        
+   }
+
+  /* .DivCars {
+       opacity: 0;
+       transition: all 0.5s;
+   }*/
+
+   .showUp{
+       animation: ShowUp 1s;
+   }
+
+   @keyframes ShowUp {
+       0%{
+           transform: translateY(60px);
+       }
+       100%{
+           transform: translateY(0);
+       }
+   }

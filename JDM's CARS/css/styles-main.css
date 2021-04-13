@@ -1,12 +1,30 @@
-html { 
-  background: url("/JDM's CARS/IMG/teslas.jpg") no-repeat center center fixed; 
+.Main { 
+  background: url("/JDM's CARS/IMG/JDMFondo.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
 }
+.Honda{
+	  background: url("/JDM's CARS/IMG/Honda.jpg") no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  font-family: 'Raleway',
+	  sans-serif;
+}
 
+.Nissan{
+		  background: url("/JDM's CARS/IMG/Nissan.jpg") no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  font-family: 'Raleway',
+		  sans-serif;
+}
 #container {
 	margin: auto;
 	width: 1300px;
@@ -56,6 +74,8 @@ html {
 	margin-top: 20px;
 	text-align: center;
 	color: white;
+	font-weight: bold;
+
 }
 
 #line-1 {
@@ -115,3 +135,4 @@ html {
 	position: relative;
 	bottom: 4em;
 }
+

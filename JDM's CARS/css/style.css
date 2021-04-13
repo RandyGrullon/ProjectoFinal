@@ -155,7 +155,7 @@ input:hover {
   text-transform: uppercase;
 }
 
-
+ /* Flechita en Go BACK */
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -163,12 +163,13 @@ input:hover {
   padding: 3px;
 }
 
-
+ /* Orientacion de la flechita */
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
 
+ /* Tipografia + quitarle underline a los href */
 .back-button{
   position:relative;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -179,11 +180,34 @@ input:hover {
  
 }
 
+ /* Aplicar estilos de la flechita en Register */
 .forRegister{
   top: 3vh;
   left:1.5vw;
 }
 
+
+ /* Aplicar estilos de la flechita en Contact us */
 .forContactUs{
   top: 3vh;
+}
+
+ /* Cosita de mi Los Santos Customs */
+.center{
+  margin: auto;
+}
+
+ /* Cosita de mi Los Santos Customs x2*/
+#paintyPaint {
+  width: 60vw;
+  height:69.8561vh;
+  border:0.01em solid black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center ; */
+}
+
+ /* Cosita de mi Los Santos Customs x3*/
+#paintyPaint img{
+	width:60vw;
 }

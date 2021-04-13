@@ -19,5 +19,6 @@ function randomImgPaint() {
   // let img = document.createElement("img");
   // img.setAttribute("src", paths[0])
   const divImage = document.getElementById("divImage");
-  divImage.innerHTML = paths[randomNumber];
+  // divImage.innerHTML = paths[randomNumber];
+  divImage.innerHTML = `<img src="/JDM's CARS/IMG/suprasanto.png"></img>`
 }

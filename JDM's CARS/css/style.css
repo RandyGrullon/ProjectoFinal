@@ -1,176 +1,213 @@
-body{
+body {
   display: flex;
   justify-content: center;
-  
 }
 
-
-#HomeButtom{
-    position: relative;
-    font-size: 1.5em;
-    right: 600%;
-    top:1%
-
+#HomeButtom {
+  position: relative;
+  font-size: 1.5em;
+  right: 600%;
+  top: 1%;
 }
 #LoginButtom {
-    position: relative;
-    font-size: 1.5em;
-    left: 500%;
-    top: 1%
+  position: relative;
+  font-size: 1.5em;
+  left: 500%;
+  top: 1%;
 }
 
-.crumbs a{
-      text-decoration: none;
+.crumbs a {
+  text-decoration: none;
 }
 
-.crumbs a:visited{
-    color: rgb(5, 5, 5);
-
-
+.crumbs a:visited {
+  color: rgb(5, 5, 5);
 }
- 
 
-  .SpanCars1{
-          background-color: transparent;
-          display: inline-block;
-          font-family: 'Lato',
-          sans-serif;
-          line-height: 1em;
-          font-size: 1.5em;
-          font-weight: bold;
-          letter-spacing: 0.2em;
-          margin: 0;
-          padding: 1em 1em 0.1em 1em;
-          text-decoration: none;
-          text-transform: uppercase;
-          position: absolute;
-          top:20%;
-          left: 45%;
+.SpanCars1 {
+  background-color: transparent;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 1em 1em 0.1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+.SpanCars2 {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 1em 1em 0.1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -600px;
+  left: 45%;
+}
 
-  } 
-    .SpanCars2 {
-        
-        display: inline-block;
-        font-family: 'Lato',
-        sans-serif;
-        line-height: 1em;
-        font-size: 1.5em;
-        font-weight: bold;
-        letter-spacing: 0.2em;
-        margin: 0;
-        padding: 1em 1em 0.1em 1em;
-        text-decoration: none;
-        text-transform: uppercase;
-        position: absolute;
-        bottom:-600px;
-        left: 45%;
-        
-    }
+nav {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0.7;
+  padding: 0.1em 0.2em;
+  /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
+  position: fixed;
+  /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0;
+  /* At the top */
+  z-index: 99;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
 
-  nav{
-      display: flex;
-      justify-content: center;
-      overflow: hidden;
-      opacity: 0.7;
-      padding: 0.1em 0.2em;
-        /* Large padding which will shrink on scroll (using JS) */
-      transition: 0.4s;
-        /* Adds a transition effect when the padding is decreased */
-      position: fixed;
-        /* Sticky/fixed navbar */
-      width: 100%;
-      top: 0;
-        /* At the top */
-      z-index: 99;
-      background-color: rgb(255, 255, 255);
-      font-weight: bold;
+.DivCarsInput1 {
+  position: absolute;
+  top: 15em;
+  width: 15%;
+  left: 34.8em;
+  height: 2em;
+  border-radius: 1em;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+input:hover {
+  background-position: right;
+}
 
-  }
-
-  .DivCarsInput1 {
-      	position: absolute;
-        top: 15em; 
-      	width: 15%;
-        left: 34.8em;
-      	height: 2em;
-      	border-radius: 1em;
-      	outline: none;
-      	border: none;
-      	background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
-      	background-size: 200%;
-      	font-size: 1.2rem;
-      	color: #fff;
-      	font-family: 'Poppins',
-      	sans-serif;
-      	text-transform: uppercase;
-      	margin: 1rem 0;
-      	cursor: pointer;
-      	transition: .5s;
-  } 
-    input:hover {
-      background-position: right;
-  }
-
-    .DivCarsInput2 {
-        position: absolute;
-    	  top: 220%;
-        right: 40%;
-        width: 15%;
-    	  height: 2em;
-        border-radius: 1em;
-        outline: none;
-        border: none;
-        background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
-        background-size: 200%;
-        font-size: 1.2rem;
-        color: #fff;
-        font-family: 'Poppins',
-        sans-serif;
-        text-transform: uppercase;
-        margin: 1rem 0;
-        cursor: pointer;
-        transition: .5s;
-  }
+.DivCarsInput2 {
+  position: absolute;
+  top: 220%;
+  right: 40%;
+  width: 15%;
+  height: 2em;
+  border-radius: 1em;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #ce1212, #ce1212, #810000);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
 .info {
-display: flex;
-justify-content: center;
-position:  absolute;
-align-items: center;
-font-size: 16px;
-list-style: none;
-left: 37.5em;
-top: 12em;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 400;
-
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  font-size: 16px;
+  list-style: none;
+  left: 37.5em;
+  top: 12em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
 }
 
-.info li{
- list-style: none;
-  
-  }
+.info li {
+  list-style: none;
+}
 
-  .ImgCars{
-      height: auto;
-      margin-top: -50px;
-      position: absolute;
-     
-  }
+.ImgCars {
+  height: auto;
+  margin-top: -50px;
+  position: absolute;
+}
 
-  .crumbs li {
+.crumbs li {
+  background-color: transparent;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 1em 1em 0.1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-      background-color: transparent;
-      display: inline-block;
-      font-family: 'Lato', sans-serif;
-      line-height: 1em;
-      font-size: 1em;
-      font-weight: 400;
-      letter-spacing: 0.2em;
-      margin: 0;
-      padding: 1em 1em 0.1em 1em;
-      text-decoration: none;
-      text-transform: uppercase;
+ /* Flechita en Go BACK */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+ /* Orientacion de la flechita */
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+ /* Tipografia + quitarle underline a los href */
+.back-button{
+  position:relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000;
+  margin-right: auto;
+ 
+}
+
+ /* Aplicar estilos de la flechita en Register */
+.forRegister{
+  top: 3vh;
+  left:1.5vw;
 }
 
 
+ /* Aplicar estilos de la flechita en Contact us */
+.forContactUs{
+  top: 3vh;
+}
+
+ /* Cosita de mi Los Santos Customs */
+.center{
+  margin: auto;
+}
+
+ /* Cosita de mi Los Santos Customs x2*/
+#paintyPaint {
+  width: 60vw;
+  height:69.8561vh;
+  border:0.01em solid black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center ; */
+}
+
+ /* Cosita de mi Los Santos Customs x3*/
+#paintyPaint img{
+	width:60vw;
+}

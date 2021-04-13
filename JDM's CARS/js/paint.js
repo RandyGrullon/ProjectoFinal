@@ -12,7 +12,7 @@ function changeBackground() {
 function randomImgPaint() {
   const paths = [
     `<img src="resources/img/paint/torqueGT.png">`,
-    `<img src="resources/img/paint/supra.png">`,
+    `<img src="/JDM's CARS/IMG/santossupra.png">`,
     `<img src="resources/img/paint/nissanGTR.png">`,
   ];
   const randomNumber = Math.floor(Math.random() * 3);

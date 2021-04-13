@@ -191,23 +191,3 @@ input:hover {
 .forContactUs{
   top: 3vh;
 }
-
- /* Cosita de mi Los Santos Customs */
-.center{
-  margin: auto;
-}
-
- /* Cosita de mi Los Santos Customs x2*/
-#paintyPaint {
-  width: 60vw;
-  height:69.8561vh;
-  border:0.01em solid black;
-  /* display: flex;
-  justify-content: center;
-  align-items: center ; */
-}
-
- /* Cosita de mi Los Santos Customs x3*/
-#paintyPaint img{
-	width:60vw;
-}

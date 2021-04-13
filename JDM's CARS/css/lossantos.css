@@ -1,0 +1,24 @@
+
+ /* Cosita de mi Los Santos Customs */
+ .center{
+	margin: auto;
+  }
+  
+   /* Cosita de mi Los Santos Customs x2*/
+  #paintyPaint {
+	width: 67vw;
+	height:37.6vw;
+	border:0.01em solid black;
+	/* display: flex;
+	justify-content: center;
+	align-items: center ; */
+  }
+  
+   /* Cosita de mi Los Santos Customs x3*/
+  #paintyPaint img{
+	  width:67vw;
+  }
+  
+  #paintSantosHTML{
+  position:absolute;  
+  }

@@ -1,17 +1,4 @@
-// Login
-const users = [
-	{
-	  username: "eddy",
-	  email:"eddy@jdm.com",
-	  password: "1234"
-	},
-	{
-	  username: "Valentin Sanchez",
-	  email: "valentin.sanchez13@gmail.com",
-	  password: "bestprof"
-	},
-  ];
-  
+// Login  
   const buttonLogin = document.getElementById("buttonLogin");
   buttonLogin.addEventListener("click", (e) => {
 	e.preventDefault();
@@ -39,19 +26,3 @@ const users = [
 
 
 
-  // Register
-  const buttonRegister = document.getElementById("buttonRegister");
-  buttonRegister.addEventListener("click", e => {
-	  e.preventDefault();
-	  const inputUserNameRegister = document.getElementById("inputUserNameRegister");
-	  const inputPasswordRegister = document.getElementById("inputPasswordRegister");
-	console.log(inputUserNameRegister)
-	  console.log(inputPasswordRegister)
-	  const newUser=[{
-		username: inputUserNameRegister,
-		password: inputPasswordRegister
-	  }]
-
-	  users.push(newUser);
-  })
-  

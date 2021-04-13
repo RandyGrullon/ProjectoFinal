@@ -24,6 +24,42 @@
 	font-family: 'Raleway',
 	sans-serif;
 }
+.mitsubishi{
+	background: url("/JDM's CARS/IMG/mitsubishi.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway',
+	sans-serif;
+}
+.Toyota{
+	background: url("/JDM's CARS/IMG/Toyota.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway',
+	sans-serif;
+}
+.Mazda{
+	background: url("/JDM's CARS/IMG/Mazda.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway',
+	sans-serif;
+}
+.Subaru{
+	background: url("/JDM's CARS/IMG/Subaru.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Raleway',
+	sans-serif;
+}
 
 .Nissan{
 		  background: url("/JDM's CARS/IMG/Nissan.jpg") no-repeat center center fixed;

@@ -1,6 +1,4 @@
 
-
-window.addEventListener('scroll', ShowScroll);
 const inputs = document.querySelectorAll(".input");
 
 

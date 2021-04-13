@@ -110,3 +110,8 @@ html {
 	width: 20px;
 	margin-bottom: -5px;
 }
+
+#logo{
+	position: relative;
+	bottom: 4em;
+}

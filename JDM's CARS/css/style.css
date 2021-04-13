@@ -1,4 +1,8 @@
-
+body{
+  display: flex;
+  justify-content: center;
+  
+}
 
 
 #HomeButtom{
@@ -45,7 +49,7 @@
 
   } 
     .SpanCars2 {
-        background-color: transparent;
+        
         display: inline-block;
         font-family: 'Lato',
         sans-serif;
@@ -58,7 +62,7 @@
         text-decoration: none;
         text-transform: uppercase;
         position: absolute;
-        top: 130%;
+        bottom:-600px;
         left: 45%;
         
     }
@@ -67,6 +71,7 @@
       display: flex;
       justify-content: center;
       overflow: hidden;
+      opacity: 0.7;
       padding: 0.1em 0.2em;
         /* Large padding which will shrink on scroll (using JS) */
       transition: 0.4s;
@@ -84,9 +89,9 @@
 
   .DivCarsInput1 {
       	position: absolute;
-        top: 100%; 
+        top: 15em; 
       	width: 15%;
-        left: 45%;
+        left: 34.8em;
       	height: 2em;
       	border-radius: 1em;
       	outline: none;
@@ -127,9 +132,30 @@
         transition: .5s;
   }
 
+.info {
+display: flex;
+justify-content: center;
+position:  absolute;
+align-items: center;
+font-size: 16px;
+list-style: none;
+left: 37.5em;
+top: 12em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+
+}
+
+.info li{
+ list-style: none;
+  
+  }
+
   .ImgCars{
-      height: 0px;
+      height: auto;
       margin-top: -50px;
+      position: absolute;
+     
   }
 
   .crumbs li {

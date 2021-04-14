@@ -97,6 +97,7 @@
 #right-nav-buttons:hover{
 color:red;	transition: .2;
 }
+
 .nav-button {
 	color: #a51b1b;
 	text-decoration: none;
@@ -199,4 +200,5 @@ cursor: pointer;
 	position: relative;
 	bottom: 4em;
 }
+
 

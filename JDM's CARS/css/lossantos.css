@@ -74,7 +74,10 @@ h1 {
   transform: translateY(4px);
   transition: 0.3s;
 }
+.button:focus{
+  outline: none;
 
+}
 label {
   text-align: end;
   color:#fff;
@@ -82,4 +85,11 @@ label {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 400;
   -webkit-text-stroke: 0.07em #000;
+}
+
+a{
+  text-decoration: none;
+}
+h1:hover{
+  color:red;
 }

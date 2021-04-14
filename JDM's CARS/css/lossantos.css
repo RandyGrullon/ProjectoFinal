@@ -28,8 +28,13 @@ body {
   z-index: -1;
 }
 
-#divInputColor {
+#divButtonRandomImg {
   margin-left: 2vw;
+}
+#divInputColor {
+  position:absolute;
+  margin:1em;
+/* margin-left: 50%; */
 }
 h1 {
   font-family: "Calligraffitti", cursive;

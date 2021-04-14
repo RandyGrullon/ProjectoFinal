@@ -17,8 +17,7 @@ function randomImgPaint() {
     
   ];
   const randomNumber = Math.floor(Math.random() * 3);
-  // let img = document.createElement("img");
-  // img.setAttribute("src", paths[0])
+
   const divImage = document.getElementById("divImage");
   divImage.innerHTML = paths[randomNumber];
 }

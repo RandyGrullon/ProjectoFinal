@@ -1,24 +1,79 @@
+body {
+  margin: 0;
 
- /* Cosita de mi Los Santos Customs */
- .center{
-	margin: auto;
-  }
-  
-   /* Cosita de mi Los Santos Customs x2*/
-  #paintyPaint {
-	width: 67vw;
-	height:37.6vw;
-	border:0.01em solid black;
-	/* display: flex;
+  overflow: hidden;
+}
+/* Cosita de mi Los Santos Customs */
+.center {
+  margin: auto;
+}
+
+/* Cosita de mi Los Santos Customs x2*/
+#paintyPaint {
+  width: 100vw;
+  height: 100vh;
+  border: 0.01em solid black;
+
+  z-index: 0;
+  /* display: flex;
 	justify-content: center;
 	align-items: center ; */
-  }
-  
-   /* Cosita de mi Los Santos Customs x3*/
-  #paintyPaint img{
-	  width:67vw;
-  }
-  
-  #paintSantosHTML{
-  position:absolute;  
-  }
+}
+
+/* Cosita de mi Los Santos Customs x3*/
+#paintyPaint img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+#divInputColor {
+  margin-left: 2vw;
+}
+h1 {
+  font-family: "Calligraffitti", cursive;
+  color: #000;
+  font-size: 3.3em;
+  margin-left: 2vw;
+  font-weight: 1000;
+  -webkit-text-stroke: 0.001em #fff;
+
+}
+
+
+.button {
+  border: none;
+  color: #000;
+  background-color: #fcfcfc;
+  opacity: 0.7;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  color: #555;
+  background-color: #ccc;
+}
+.button:active {
+  background: #555;
+  box-shadow: 0 5px #555;
+  transform: translateY(4px);
+  transition: 0.3s;
+}
+
+label {
+  text-align: end;
+  color:#fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  -webkit-text-stroke: 0.07em #000;
+}

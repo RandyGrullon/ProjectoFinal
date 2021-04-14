@@ -76,14 +76,14 @@
 }
 
 #logo img {
-	width: 150px;
+	width: 9.375em;
 	float: left;
 	position: absolute;
 }
 
 #left-nav-buttons {
 	float: left;
-	margin-left: 205px;
+	margin-left: 12.8125;
 }
 
 #right-nav-buttons {
@@ -95,9 +95,10 @@
 }
 
 .nav-button {
-	color: white;
+	color: #a51b1b;
 	text-decoration: none;
 	margin-left: 25px;
+	-webkit-text-stroke: 0.03em #fff;
 }
 
 #content {
@@ -118,8 +119,9 @@
 #content #marketing-content {
 	margin-top: 20px;
 	text-align: center;
-	color: white;
+	color: #000;
 	font-weight: bold;
+	-webkit-text-stroke: 0.001em #fff;
 
 }
 

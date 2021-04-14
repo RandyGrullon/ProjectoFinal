@@ -20,4 +20,5 @@ buttonRegister.addEventListener("click", (e) => {
   };
 
   users.push(newUser);
+  
 });

@@ -52,7 +52,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   position: absolute;
-  bottom: -600px;
+  bottom: -37.5em;
   left: 45%;
 }
 
@@ -123,7 +123,7 @@ input:hover {
   justify-content: center;
   position: absolute;
   align-items: center;
-  font-size: 16px;
+  font-size: 1em;
   list-style: none;
   left: 37.5em;
   top: 12em;
@@ -137,7 +137,7 @@ input:hover {
 
 .ImgCars {
   height: auto;
-  margin-top: -50px;
+  margin-top: -3.125em;
   position: absolute;
 }
 
@@ -158,9 +158,9 @@ input:hover {
  /* Flechita en Go BACK */
 .arrow {
   border: solid black;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0.1875em 0.1875em 0;
   display: inline-block;
-  padding: 3px;
+  padding: 0.1875em;
 }
 
  /* Orientacion de la flechita */

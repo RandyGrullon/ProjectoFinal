@@ -83,22 +83,31 @@
 
 #left-nav-buttons {
 	float: left;
-	margin-left: 12.8125;
+	margin-left: 12.8125em;
 }
 
 #right-nav-buttons {
-	margin-left: 805px;
+	margin-left: 50.3125em;
 }
 
 #right-nav-buttons a {
 	font-size: .8em;
 }
 
+#right-nav-buttons:hover{
+color:red;	transition: .2;
+}
 .nav-button {
 	color: #a51b1b;
 	text-decoration: none;
-	margin-left: 25px;
+	margin-left: 1.5625em;
 	-webkit-text-stroke: 0.03em #fff;
+	transition:.2s;
+}
+.nav-button:hover{
+font-size: 1.2em;
+color:red;
+transition:.2s;
 }
 
 #content {
@@ -106,18 +115,18 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	padding: 10px;
+	padding: 0.625em;
 }
 
 #content #banner {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 300px;
+	width: 18.75em;
 }
 
 #content #marketing-content {
-	margin-top: 20px;
+	margin-top: 1.25em;
 	text-align: center;
 	color: #000;
 	font-weight: bold;
@@ -127,7 +136,7 @@
 
 #line-1 {
 	font-size: 1.5em;
-	margin-bottom: 10px;
+	margin-bottom: 0.625em;
 }
 
 #line-2 {
@@ -136,17 +145,18 @@
 
 #buttons {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 2.5em;
 }
 
 .button {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
 	background-color: black;
 	color: white;
-	padding: 10px 24px 10px 24px;
+	padding: 0.625rem 1.5rem 0.625rem 1.5rem;
 	max-width: 30px;
 	border: 1px solid transparent;
+	transition: 0.2s;
 }
 
 #buttons a {
@@ -155,28 +165,35 @@
 }
 
 .button:hover {
-	border: 1px solid white;
+	border: 1em solid white;
+	transition: 0.2s;
 }
 
 #footer {
    position:absolute;
    bottom:0;
-   width:1300px;
-   height:30px;
+   width:81.25em;
+   height:1.875em;
    text-align: center;
 }
+
 
 .footer-link {
 	color: white;
 	text-decoration: none;
-	margin-left: 25px;
+	margin-left: 1.5625em;
 	font-size: .8em;
 }
 
-#flag {
-	width: 20px;
-	margin-bottom: -5px;
+.footer-link:hover{
+	color:red;
+cursor: pointer;
 }
+
+/* #flag {
+	width: 1.25em;
+	margin-bottom: -5px;
+} */
 
 #logo{
 	position: relative;
